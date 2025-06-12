@@ -1,0 +1,51 @@
+Java 8 (March 2014) – Revolutionary Update
+    Lambda Expressions
+    Stream API
+    Default Methods in the interface
+    Static Methods
+    Functional Interfaces - e.g. Predicate, Function, Supplier
+    Optional -To avoid NullPointerException.
+    Method References
+    Date and Time API (java.time)
+
+Java 11
+    Local Variable Syntax for Lambda Parameters: var x -> x.length()
+    New String Methods: isBlank(), lines(), strip(), repeat()
+    New HttpClient API (Standard, non-incubating)
+    File Methods: readString(), writeString()
+    Flight Recorder and JDK Mission Control (JVM monitoring)
+
+Java 17
+    Sealed Classes: Restrict which classes can extend a class.
+    Record Classes: Immutable data classes.
+    Pattern Matching for instanceof: Simplifies type checks and casts.
+    Switch Expressions: Enhanced switch statements with yield.
+    Text Blocks: Multi-line string literals.
+    Helpful NullPointerExceptions
+    Compact Number Formatting Support
+    Day Period Support Added
+    Stream.toList()
+
+    New macOS rendering pipeline
+    Foreign Function and Memory API (Incubator)
+
+
+
+Java 21
+    VirtualThreads
+    Sequenced Collections
+            SequencedCollection
+            SequencedSet
+            SequencedMap
+    Scoped Values
+    Record Patterns
+    Pattern Matching for switch and null
+    New String Methods: stripIndent(), translateEscapes()
+    New File Methods: readString(), writeString()
+    New File API: Path.of(), Files.writeString(), Files.readString()
+    New File System API: FileSystems.getDefault(), FileSystems.newFileSystem()
+    New Process API: ProcessHandle, ProcessHandle.Info
+    New Collection Methods: toUnmodifiableList(), toUnmodifiableSet(), toUnmodifiableMap()
+
+    New String Methods: transform(), indent()
+    Simple Web Server
